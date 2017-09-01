@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>
+        Timmiej93
+    </translationContributors>
+
+    <texts>
+        <!-- In-game text -->
+        <text name="T93_F1_CHANGE_MARGIN" text="Alarme à: %i%%" />
+        <text name="T93_CHANGE_MARGIN" text="T93 Presse à balles fix: Changer à quel niveau de remplissage commence l'alarme" />
+    </texts>
+</l10n>

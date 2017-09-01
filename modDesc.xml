@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="31">
+    <author>Timmiej93</author>
+    <version>0.9.9.9</version>
+
+    <title>
+		<en>Baler Fix</en>
+        <de>Ballenpresse Fix</de>
+        <fr>Presse à balles fix</fr>
+        <nl>Balenpers fix</nl>
+    </title>
+
+    <description>
+        <en>
+            <![CDATA[The BalerFix mod allows you to unload your round baler at any time, regardless of the filllevel. It also allows you to set the filllevel at which the alarm should start (50%, 75%, 85%, 90%, 95%, 100%).
+
+Controls: Left CTRL + z]]>
+        </en>
+		<de>
+            <![CDATA[Mit dem Ballenpresse Fix Mod kannst du deine Rundballenpresse jederzeit entladen, unabhängig vom Füllstand. Es ist auch möglichden Füllstand ein zu stellen, bei dem der Alarm starten soll (50%, 75%, 85%, 90%, 95%, 100%).
+
+Tastenbelegungen: STRG links + z]]>
+        </de>
+        <nl>
+            <![CDATA[De Balenpers Fix mod stelt je in staat om je ronde balenpers te legen, onafhankelijk van de vulstand van de pers. Het is ook mogelijk om in te stellen bij welke vulstand het alarm van de pers begint (50%, 75%, 85%, 90%, 95%, 100%).
+
+Besturing: Linker CTRL + z]]>
+        </nl>
+        <fr>
+            <![CDATA[Le mod Presse à balles Fix vous permet de décharger votre presse à balles rondes à tout moment, quel que soit le niveau de remplissage. Il vous permet également de régler le niveau de remplissage auquel l'alarme devrait commencer (50%, 75%, 85%, 90%, 95%, 100%).
+
+Commandes: CTRL gauche + z]]>
+        </fr>
+
+ 	</description>
+
+    <multiplayer supported="true"/>   
+	<iconFilename>store.dds</iconFilename>
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/BalerFix.lua" />
+    </extraSourceFiles> 
+
+    <l10n filenamePrefix="translations/translation"/>
+
+    <inputBindings>	
+	    <input name="T93_CHANGE_MARGIN" category="VEHICLE" key1="KEY_lctrl KEY_z" key2="" button="" device="0" mouse="" />
+	</inputBindings>
+</modDesc>
